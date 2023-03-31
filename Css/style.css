@@ -928,7 +928,7 @@
     /* F O O T ER   T O P  */
     #footer-top{
         flex-direction: column;
-        padding: 4rem 9rem 2rem 0rem;
+        padding: 4rem 0rem 2rem 3rem;
     }
     #logoimg,#footerMenu,#reachUs{
         padding: 1rem 0rem 1rem 0rem;
