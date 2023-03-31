@@ -575,7 +575,7 @@
         color: #ffffff;
         background: #000;
         font-size: 1em;
-        padding: 4rem 9rem 2rem 5rem;
+        padding: 4rem 9rem 2rem 3rem;
     }
     #logoimg,#footerMenu,#reachUs{
         padding: 5rem 0rem 0rem 5rem;
@@ -933,11 +933,11 @@
         text-align: center;
     }
     #logoimg,#footerMenu,#reachUs{
-        width: 99vw;
+        width: 72vw;
     }
     #footerMenu table,#footerMenu th,#footerMenu td,#footerMenu tr{
         width: 70vw;
-        margin: 0rem 0rem 0rem 3rem;
+        margin: 0rem 0rem 0rem 2rem;
     }
     #reachUs p{
         margin: 0.5rem 1rem -1rem 0rem;
