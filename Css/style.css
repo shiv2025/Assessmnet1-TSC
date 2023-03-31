@@ -90,7 +90,7 @@
 }
 /* E N T R E P R E N E U R S */
 #entrepreneurs {
-    background-image: url(/Assets/img/bannerimg.png);
+    background-image: url(./Assets/img/bannerimg.png);
     background-size: cover;
     background-color: #000 ;
     display: flex;
@@ -289,7 +289,7 @@
 #products {
     margin: 2rem 0rem 0rem 0rem;
     background-color: #004621;
-    background-image: url(/Assets/productBg.svg);
+    background-image: url(./Assets/productBg.svg);
 }
 #products_centered {
     width: 75vw;
@@ -411,7 +411,7 @@
 }
 /* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
 #investorRelation{
-    background-image: url(/Assets/TYTY.png);
+    background-image: url(./Assets/TYTY.png);
     background-color: #000;
     width: 98.5vw !important;
 }
