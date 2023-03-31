@@ -413,7 +413,7 @@
 #investorRelation{
     background-image: url("../Assets/TYTY.png");
     background-color: #000;
-    width: 98.5vw !important;
+    width: 100vw !important;
 }
 #relationsTxt p{
     color: #ffffff !important;
@@ -666,7 +666,7 @@
         display: none;
     }
     #entrepreneurs-content {
-        padding: 0rem 0rem 0rem 1rem;
+        padding: 0rem 0rem 0rem 0rem;
         height: 50vh;
     }
     #entrepreneurs-content>h2,    #entrepreneurs-content>h3 {
@@ -815,7 +815,7 @@
         margin:2rem 0rem 2rem 1rem;
     }
     #advanceImg img {
-        height: 31vh;
+        height: 33vh;
         width: 100vw;
     }
     .briefcaseList {
