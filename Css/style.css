@@ -1,0 +1,952 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* H E A D E R */
+#header {
+    display: flex;
+    flex-direction: row;
+    background-color: #004621;
+}
+#header-leftBlank {
+    width: 42vw;
+}
+#header-rightContent {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#fa-loc,#fa-mail,#fa-call {
+    margin: 0.8rem 0.5rem 1rem 0rem;
+    color: #ffffff;
+    text-align: center;
+    padding: auto;
+    font-size: 1em;
+}
+.contactInfo {
+    display: flex;
+    flex-direction: row;
+}
+.contactInfo-headings>span {
+    display: flex;
+}
+.contactInfo-headings-yellow {
+    font-size: 0.8em;
+    line-height: 20px;
+    color: #fcb040;
+    font-weight: 900;
+    font-family: "Poppins";
+    text-align: center;
+}
+.contactInfo-headings-white {
+    font-size: 0.7em;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+/* N A V I G A T  I O N - B A R */
+#navigationBar {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9em;
+}
+#navigationLogo {
+    display: flex;
+    justify-content: center;
+    width: 23vw;
+}
+#navigationItems {
+    width: 57vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 0rem 0rem 0rem;
+}
+#home-underlined {
+    text-decoration: underline;
+}
+#navigation-ContactUsBtn {
+    width: 20vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#navigation-ContactUsBtn>button,#advancedTech button ,.moreBtnGreen{
+    background-color: #004621 !important;
+}
+#list-top>ul,#list-bottom>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25vw;
+    color: #004621;
+    font-weight: 900;
+    font-size: small;
+    font-family: "Raleway";
+    margin: 1.7rem 0rem 0rem 1rem;
+}
+/* E N T R E P R E N E U R S */
+#entrepreneurs {
+    background-image: url(/Assets/img/bannerimg.png);
+    background-size: cover;
+    background-color: #000 ;
+    display: flex;
+    flex-direction: row;
+}
+#entrepreneurs-navDots {
+    width: 15vw;
+}
+#entrepreneurs-navDots ul {
+    color: white;
+    font-size: xx-large;
+    margin: 14rem 0rem 0rem 5rem;
+}
+#entrepreneurs-navDots ul li:nth-of-type(2) {
+    color: #fcb040;
+}
+#entrepreneurs-content {
+    padding: 8rem 0rem 0rem 0rem;
+    height: 80vh;
+}
+#entrepreneurs-content>h2,#entrepreneurs-content>h3 {
+    font-size: 6em;
+    line-height: 85px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Teko";
+}
+#entrepreneurs-content h2:nth-of-type(2) {
+    font-size: 5em;
+    font-weight: 700;
+}
+#entrepreneurs-content>h3 {
+    width: 419px;
+    height: 29px;
+    line-height: 4rem;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Teko";
+}
+.moreBtn {
+    color: white;
+    background: #fcb040;
+    width: 12vw;
+    height: 8vh;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    border: none;
+    transition: 0.2s;
+}
+.moreBtnGreen{
+    color: #ffffff;
+}
+
+/***************** H O V E R ****************/
+.moreBtn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-radius:0.25rem ;  
+}
+.contactInfo:hover , #navigationItems li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#navigationItems li:hover{
+    color:#fcb040;
+    text-decoration: underline;
+    font-weight: bolder;
+    }
+#navigationLogo img:hover,
+.contactInfo-icons:hover,
+.members-img:hover,
+.exp-on-img:hover,
+.briefcase-para:hover{
+    rotate: 360deg;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.productcard:hover{
+    transform: scale(1.1);
+    border-radius:0.25rem ;
+    color: #fcb040;
+}
+
+
+/**********************  o  v e r  *****************/
+#entrepreneurs-exploreMore {
+    margin: 3rem 0rem 0rem 0rem;
+}
+/* W E L C O M E */
+.welcome {
+    padding: 4rem 0rem 0rem 0rem;
+    margin: auto;
+    position: relative;
+    width: 70vw;
+}
+.teamNumbers {
+    display: flex;
+}
+.members {
+    transform: rotate(270deg);
+    position: absolute;
+    height: 27vh;
+    width: 6vw;
+    top: 3rem;
+}
+.members h2,#advanceTxt h2 {
+    font-size: 3.5rem;
+    line-height: 216px;
+    color: #004621;
+    font-weight: 600;
+    font-family: "Teko";
+    margin: -5rem 0rem 0rem 0rem;
+}
+.members-img {
+    position: relative;
+}
+.members-img img {
+    width: 5vw;
+    margin: 0rem 0rem 0rem 2rem;
+}
+.members-img-background img {
+    width: 7vw;
+}
+.members-img-background {
+    position: absolute;
+    top: 0.5rem;
+    right: -1rem;
+}
+#heading-teamMembers {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+}
+#teamMembers,.welcomeContent {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem 3rem 0rem;
+}
+.welcomeImg {
+    width: 100vw;
+    position: relative;
+    margin: 3rem 0rem 0rem 0rem;
+}
+.welocme_building-img {
+    width: 30vw;
+    margin: -1rem 0rem 0rem 0rem;
+    border-radius: 0.8rem;
+}
+.exp-on-img {
+    position: absolute;
+    bottom: -2rem;
+    right: -4rem;
+}
+.exp-on-img img {
+    width: 18vw;
+}
+.exp-on-img-txt {
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 3.25rem;
+    left: 1.9rem;
+    transform: rotate(335deg);
+}
+.welcomeText {
+    padding: 1rem 0rem 0rem 5rem;
+}
+.welcomeText h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: "Teko";
+}
+.welcomeText p {
+    color: #000000;
+    font-family: "Raleway";
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.welcomeText h2:nth-of-type(2) {
+    color: #004621;
+    font-weight: 900;
+}
+#heading-teamMembers{
+    font-family: "Teko";
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0rem 0rem 0rem 1rem;
+}
+/* P R O D U C T S */
+#products {
+    margin: 2rem 0rem 0rem 0rem;
+    background-color: #004621;
+    background-image: url(/Assets/productBg.svg);
+}
+#products_centered {
+    width: 75vw;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-family: "Teko";
+}
+#product_head h3 {
+    color: #fcb040;
+}
+#product_head {
+    text-align: center;
+    margin: 2rem 0rem 1rem 0rem;
+}
+.briefcase-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.productcard {
+    width: 22%;
+    height: 45vh;
+    background-color: #125c35;
+    margin: 0rem 0rem 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-cardTxt {
+    margin: 1rem 0rem 0rem 0rem;
+    text-align: center;
+    font-size: 1em;
+    line-height: 3.5rem;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.product-cardTxt p {
+    font-size: 0.6em;
+    line-height: 1rem;
+    font-weight: 500;
+}
+.briefcase-bg {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 0.5rem 0.5rem 3rem 0.5rem;
+    margin: 0rem 0rem 0rem 5rem;
+    background-color: #fcb040;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: -10px -10px 0px 0px #247149;
+}
+.card-btn {
+    background: #125c35;
+    border: none;
+    font-size: 0.75em;
+}
+#product-navDots {
+    display: none;
+}
+/* A D V A N C E D  T E C H */
+#advancedTech {
+    display: flex;
+    background: #f2f2f2;
+}
+#advanceTxt,#advanceImg {
+    width: 50vw;
+}
+#advanceTxt {
+    margin: 4rem 2rem 0rem 10rem;
+    height: 60vh;
+    font-size: 1em;
+    font-family: "Raleway";
+}
+#advanceTxt p {
+    margin: -4rem 0rem 0rem 0rem;
+    font-weight: 300;    
+}
+#advanceImg img {
+    height: 70vh;
+    width: 50vw;
+}
+.briefcaseList {
+    margin: 2rem 0rem 5rem 0rem;
+    display: flex;
+}
+.briefcase-para img {
+    width: 1.5vw;
+    margin: -0.5rem 0rem 0rem -0.25rem;
+}
+.briefcase-para {
+    width: 3vw;
+    height: 6vh;
+    border-radius: 0.5rem 0.5rem 3rem 0.5rem;
+    margin: 0rem 0rem 0rem 2rem;
+    background-color: #fcb040;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: -5px -5px 0px 0px #d5d5d5;
+}
+.briefcaseList p {
+    padding: 4rem 2rem 0rem 3rem;    
+}
+#briefcaseList-bottom {
+    margin: -3rem 0rem 2rem 0rem;
+}
+/* L O A N */
+.loanMan{
+    width: 37vw;
+    margin: -2rem 0rem 0rem -3rem;
+}
+.check_circle_icon{
+    display: flex;
+}
+.check_circle_icon p{
+    margin: 1rem 0rem 1rem 1rem;
+}
+/* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
+#investorRelation{
+    background-image: url(/Assets/TYTY.png);
+    background-color: #000;
+    width: 98.5vw !important;
+}
+#relationsTxt p{
+    color: #ffffff !important;
+}
+#relationsTxt{
+    margin: 0rem 0rem 0rem 10rem;
+    position: relative;
+}
+#investorHeadOrange {
+    color: #fcb040;
+}
+#investorHeadWhite{
+    color: #ffffff;
+}
+#slantesorange{
+    bottom: -3.3rem;
+    right: -30.7rem;
+    position: absolute;
+}
+/* M E N U  C A R D S */
+#menuCards,#cardLeft,#cardRight{
+    display: flex;
+}
+#menuCards{
+    font-family: "Teko";
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: lightgray;
+}
+.card-round{
+    border-radius: 2rem;
+    background: #004621;
+    width: 4vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    margin: 0rem 0rem 0rem 1rem;
+}
+#card-round-orang{
+    background: #fcb040 !important;
+}
+.card {
+    background-color: #ffffff;
+    width: 18vw;
+    height: 10vh;
+    margin: 0rem 2rem 0rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+    /* C U S T O M E R   I N V E S T O R    T E S T I M O N I A L S */
+    #customer_investor{
+        display: flex;
+        margin-bottom: 2rem;
+        font-family: "Raleway";
+    }
+    #cust_invst_left{
+        background: #fcb040;
+        width: 50vw;
+    }
+    #cust_invst_right{
+        background: #125c35;
+        width: 50vw;
+    }
+    #cust_invst_head-lft, #cust_invst_head-rt{
+        margin: 0rem 0rem 0rem 10rem;
+    }
+    #cust_invst_head-lft h2,#cust_invst_head-rt h2{
+        color: white;
+    }
+    .whitePara-lft{
+        width: 25vw;
+        background: white;
+        margin: 0rem 0rem 0rem 15rem;
+        border: 1px solid white;
+    }
+    .whitePara-rt{
+        width: 25vw;
+        background: white;
+        margin: 0rem 0rem 2rem 5rem;
+        border: 1px solid white;
+    }
+    .whiteParaImg img{
+        border-radius: 50%;
+        width: 5vw;
+        margin: 2rem 0rem 1rem 2rem;
+    }
+    #whiteParaTop{
+        display: flex;
+        margin: 0rem 0rem 0rem 0rem ;
+    }
+    .whiteParaTxt h4{
+        color:#004621 ;
+    }
+    .whiteParaTxt{
+        height: 7vh;
+        margin: 2rem 0rem 0rem 2rem;
+        line-height: 2em;
+    }
+    #whiteParaBottom p{
+        margin: 1rem;
+    }
+    /* C L I E N T S  */
+    #clients{
+        position: relative;
+        padding: 0rem 0rem 5rem 0rem;
+        font-family: "Teko";
+    }
+    #clients h1{
+        text-align: center;
+        font-size: 5em;
+        color: #004621;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    #cropedImg{
+        display: none;
+    }
+    #CientdisplayBlock{
+        display: block ;
+    }
+    /* S U B S C R I B E */
+    #subscribe{
+        position: absolute;
+        display: flex;
+        padding: 0rem 0rem 0rem 2rem;
+        align-items: center;
+        height: 15vh;
+        bottom: -2.5rem;
+        right:  0rem;
+        width: 85vw;
+        border-radius: 1rem 0rem 0rem 1rem;
+        background: #004621;
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 1.2em;
+    }
+    #subscribe input{
+        margin: 0rem 0rem 0rem 15rem;
+        padding: 0rem 0rem 0rem 2rem;
+        height: 10vh;
+        width: 35vw;
+        border-radius: 0.7rem;
+    }
+    #SubscribeBtn{
+        width: 8vw;
+        height: 7vh;
+        border-radius: 0.5rem;
+        margin: 0rem 0rem 0rem -8rem;
+    }
+    /* F O O T E R   T O P  */
+    #footer-top{
+        display: flex;
+        font-family: "Poppins" !important;
+        color: #ffffff;
+        background: #000;
+        font-size: 1em;
+        padding: 4rem 9rem 2rem 5rem;
+    }
+    #logoimg,#footerMenu,#reachUs{
+        padding: 5rem 0rem 0rem 5rem;
+    }
+    #logoimg{
+        width: 35vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        line-height: 2em;
+        font-size: 0.9em
+    }
+    #footerMenu{
+        width: 25vw;
+        font-size: 0.9;
+    }
+    #footerMenu table,#footerMenu th,#footerMenu td,#footerMenu tr{
+        padding: 0rem 0rem 2rem 0rem;
+        width: 25vw;
+        margin: 0rem 0rem 0rem 0rem;
+        text-align: left;
+    }
+    #reachUs{
+        width: 40vw;
+    }
+    #reachUs p{
+        margin: 1.5rem 1rem -1rem 0rem;
+        font-size:0.7em ;
+        line-height: 2em;
+    }
+    #reachUs p:last-of-type{
+        margin: 1.5rem 1rem 1rem 0rem;
+    }
+    /* F O O T E R   B O T T O M */
+   #footer-bottom{
+        background: #004621;
+        color: #ffffff;
+        text-align: center;
+        font-family: "Poppins";
+    }
+
+    /* * * *  * M E D I A  Q U E R I E S * * * * */
+
+    @media only screen and (min-width: 360px) and (max-width: 460px) {
+    /* H E A D E R */
+    #header-leftBlank {
+        display: none;
+    }
+    #header-rightContent {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #fa-loc,    #fa-mail,    #fa-call {
+        margin: 0rem 0.5rem 1rem 0.2rem;
+    }
+    /* N A V I G A T  I O N - B A R */
+    #navigationBar {
+        margin: 0.25rem 0rem 0.25rem 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #navigationLogo {
+        width: 100vw;
+    }
+    #navigationItems {
+        flex-direction: column;
+    }
+    .list-top-bottom{
+        margin: -1rem 0rem 0.5rem 0rem;
+    }
+    #navigation-ContactUsBtn {
+        width:100vw;
+        justify-content: center;
+    }
+    #navigation-ContactUsBtn>button,    #advancedTech button {
+        width: 35vw;
+        height:5vh;
+    }
+    #list-top>ul,    #list-bottom>ul {
+        justify-content: space-between;
+        width: 90vw;
+    }
+    /* E N T R E P R E N E U R S */
+    #entrepreneurs-navDots {
+        display: none;
+    }
+    #entrepreneurs-content {
+        padding: 0rem 0rem 0rem 1rem;
+        height: 50vh;
+    }
+    #entrepreneurs-content>h2,    #entrepreneurs-content>h3 {
+        font-size: 4em;
+    }
+    #entrepreneurs-content h2:nth-of-type(2) {
+        font-size: 3em;
+    }
+    #entrepreneurs-content>h3 {
+        width: 350px;
+        line-height: 2rem;
+        font-size: 2em;
+    }
+    .moreBtn {
+        width: 40vw;
+        height: 6vh;
+    }
+    /* W E L C O M E */
+    .welcome {
+        width: 90vw;
+    }
+    .members {
+        position: absolute;
+        height: 9vh;
+        width: 17vw;
+        top: 1rem;
+        margin: -0.5rem 0rem 2rem 0rem;
+        }
+    .members h2{
+        font-size: 2.5rem;
+        line-height: 0px;
+        margin: 3.7rem 0rem 0rem 0rem;
+    }
+    .members-img img {
+        width: 12vw;
+        margin: -0.3rem 0rem 0rem 2rem;
+    }
+    .members-img-background img {
+        width: 20vw;
+        margin: -1rem 0rem 0rem 2rem;
+    }
+    #teamMembers,    .welcomeContent {
+        text-align: center;
+     }
+    .welcomeContent {
+        flex-direction: column;
+    }
+    .welcomeImg {
+        width: 95vw;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .welocme_building-img {
+        width: 80vw;
+    }
+    .exp-on-img {
+        bottom: -1rem;
+        right: 0rem;
+    }
+    .exp-on-img img {
+        width: 40vw;
+    }
+    .exp-on-img-txt {
+        font-size: x-small;
+        top: 2.25rem;
+        left: 1.2rem;
+    }
+    .welcomeText {
+        padding: 1rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+       /* P R O D U C T S */
+    .briefcase-cards {
+        justify-content: space-between;
+    }
+    #product-card-three,#product-card-four{
+        display: none;
+    }
+    .productcard {
+        width: 36vw;
+        height: 50vh;
+        padding: 0rem 0.1rem 0rem 0.1rem;
+    }
+    .product-cardTxt {
+        margin: 1rem 0rem 0rem 0rem;
+        font-size: 1em;
+        line-height: 2rem;
+        font-weight: 700;
+        font-family: "Raleway";
+    }
+    .product-cardTxt p {
+        margin: 1rem 0rem 0rem 0rem;
+        font-size: 0.7em;
+        line-height: 1.5rem;
+        font-weight: 300;
+    }
+    .briefcase-bg img{
+        width: 7vw;
+        margin: 0.25rem 0.5rem 0.5rem 0rem;
+        }   
+    .briefcase-bg {
+        width: 15vw;
+        height: 5vh;
+        border-radius: 0.5rem 0.5rem 3rem 0.5rem;
+        margin: 0rem 0rem 0rem 3rem;
+        background-color: #fcb040;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-shadow: -7px -7px 0px 0px #247149;
+    }
+    .card-btn {
+     margin: 1rem 0rem 0rem 0rem;
+        font-weight: 500;
+        width: 35vw;
+    }
+    #product-navDots {
+        display: block;
+        width: 75vw;
+        text-align: center;
+        margin: -5rem 0rem 0rem 0rem;
+    }
+    #product-navDots span {
+        color: #fcb040;
+        font-size: 2.5em;
+    }    
+    #product-navDots span:nth-of-type(2) {
+        color: white;
+    }
+    /* A D V A N C E D  T E C H */
+    #advancedTech {
+        flex-direction: column-reverse;
+    }
+       #advanceTxt, #advanceImg {
+        width: 90vw;
+    }
+    #advanceTxt {
+        margin: 0rem 0rem 0rem 0rem;
+        height: 60vh;
+        width: 100vw;
+    }
+    #advanceTxt h2 {
+        font-size: 2.5rem;
+        line-height: 0px;
+    }
+    #advanceTxt h2{
+        margin:2rem 0rem 2rem 1rem;
+    }
+    #advanceImg img {
+        height: 31vh;
+        width: 100vw;
+    }
+    .briefcaseList {
+        margin: 2rem 0rem 5rem 0rem;
+        display: flex;
+    }
+    .briefcase-para img {
+        width: 7vw;
+    }
+    .briefcase-para {
+        width: 20vw;
+        height: 6vh;
+        border-radius: 0.5rem 0.5rem 3rem 0.5rem;
+        margin: 0rem 0rem 0rem 1rem;
+        background-color: #fcb040;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-shadow: -5px -5px 0px 0px #d5d5d5;
+    }
+    #advanceTxt p {
+        margin:0rem 0rem 0rem 1rem;
+    }
+    .briefcaseList p {
+        padding: 0rem;
+    }
+    #briefcaseList-bottom {
+        margin: -3rem 0rem 2rem 0rem;
+    }
+    #advanceTxt button{
+        margin: 0rem 0rem 0rem 1rem;
+    }
+    /* L O A N */
+    .loanMan{
+        width: 100vw;
+        margin: -7rem 0rem 0rem -1.5rem;
+    }
+    /* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
+    #relationsTxt{
+    margin: 0rem 1rem 0rem 1rem;
+    }
+    #slantesorange{
+        display: none;
+    }
+    /* M E N U  C A R D S */
+    #menuCards{
+        flex-direction: column;
+    }
+
+    /* C U S T O M E R   I N V E S T O R    T E S T I M O N I A L S */
+    #customer_investor{
+        flex-direction: column;
+    }
+    #cust_invst_left,#cust_invst_right{
+        width: 100vw;
+    }
+    #cust_invst_head-lft, #cust_invst_head-rt{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+    .whitePara-lft,    .whitePara-rt{
+        width: 85vw;
+        background: white;
+        margin: 0.25rem 0rem 1rem 1.5rem;
+    }
+    .whiteParaImg img{
+        width: 15vw;
+        margin: 2.5rem 0rem 1rem 2rem;
+    }
+
+    /* C L I E N T S  */
+    #clients{
+        padding: 0rem 0rem 10rem 0rem;
+        margin: 0rem 0rem 7rem 0rem;
+        font-family: "Teko";
+    }
+    #clients h1{
+        text-align: center;
+        font-size: 5em;
+        color: #004621;
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    #cropedImg{
+        display: block;
+    }
+    #cropedImg img{
+        width: 95vw;
+    }
+    #CientdisplayBlock{
+        display: none;
+    }
+    #product-navDots #inactive {
+        color: #004621;
+    }
+    #cropedImg #product-navDots{
+        margin: 0rem 0rem 0rem 2.5rem;
+    }
+    /* S U B S C R I B E */
+    #subscribe{
+        flex-direction: column;
+        padding: 1rem 0rem 1rem 0rem;
+        width: 100vw;
+        border-radius: 0rem 0rem 0rem 0rem;
+    }
+    #subscribe input{
+        margin: 1rem 0rem 1rem 0rem;
+        height: 5vh;
+        width: 50vw;
+    }
+
+    /* F O O T ER   T O P  */
+    #footer-top{
+        flex-direction: column;
+    }
+    #logoimg,#footerMenu,#reachUs{
+        padding: 1rem 0rem 1rem 0rem;
+        text-align: center;
+    }
+    #logoimg,#footerMenu,#reachUs{
+        width: 99vw;
+    }
+    #footerMenu table,#footerMenu th,#footerMenu td,#footerMenu tr{
+        width: 70vw;
+        margin: 0rem 0rem 0rem 3rem;
+    }
+    #reachUs p{
+        margin: 0.5rem 1rem -1rem 0rem;
+    }
+    #reachUs p:last-of-type{
+        margin: 1.5rem 1rem 1rem 0rem;
+    }
+
+}
+
+
+
