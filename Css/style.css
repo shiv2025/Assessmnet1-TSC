@@ -575,8 +575,9 @@
         color: #ffffff;
         background: #000;
         font-size: 1em;
-        padding: 4rem 9rem 2rem 0rem;
+        padding: 4rem 9rem 2rem 5rem;
     }
+
     #logoimg,#footerMenu,#reachUs{
         padding: 5rem 0rem 0rem 5rem;
     }
@@ -927,6 +928,7 @@
     /* F O O T ER   T O P  */
     #footer-top{
         flex-direction: column;
+        padding: 4rem 9rem 2rem 0rem;
     }
     #logoimg,#footerMenu,#reachUs{
         padding: 1rem 0rem 1rem 0rem;
