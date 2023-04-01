@@ -797,7 +797,7 @@
     }
     .productcard {
         width: 41vw;
-        height: 37.5vh;
+        height: 45vh;
         padding: 1rem 0.2rem 0rem 0.1rem
     }
     .product-cardTxt {
@@ -921,8 +921,34 @@
         display: none;
     }
     /* M E N U  C A R D S */
+
     #menuCards{
+        flex-direction: row;
+    }
+    .card-round{
+        border-radius: 2rem;
+        background: #004621;
+        width: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        margin: 1rem 0rem 0rem 0rem
+    }
+    #card-round-orang{
+        background: #fcb040 !important;
+        width: 15vw;
+    }
+    .card {
+        background-color: #ffffff;
+        width: 23vw;
+        height: 15vh;
+        margin: 0rem 0rem 0rem 0.25rem;
+        font-size: 0.7em;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
     }
 
     /* C U S T O M E R   I N V E S T O R    T E S T I M O N I A L S */

@@ -88,9 +88,12 @@
     font-family: "Raleway";
     margin: 1.7rem 0rem 0rem 1rem;
 }
+.dropdown{
+    display: none;
+}
 /* E N T R E P R E N E U R S */
 #entrepreneurs {
-    background-image: url(/Assets/img/bannerimg.png);
+    background-image: url(../Assets/img/bannerimg.png);
     background-size: cover;
     background-color: #000 ;
     display: flex;
@@ -289,7 +292,7 @@
 #products {
     margin: 2rem 0rem 0rem 0rem;
     background-color: #004621;
-    background-image: url(/Assets/productBg.svg);
+    background-image: url(../Assets/productBg.svg);
 }
 #products_centered {
     width: 75vw;
@@ -411,9 +414,9 @@
 }
 /* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
 #investorRelation{
-    background-image: url(/Assets/TYTY.png);
+    background-image: url("../Assets/TYTY.png");
     background-color: #000;
-    width: 98.5vw !important;
+    width: 98.6vw !important;
 }
 #relationsTxt p{
     color: #ffffff !important;
@@ -577,6 +580,7 @@
         font-size: 1em;
         padding: 4rem 9rem 2rem 5rem;
     }
+
     #logoimg,#footerMenu,#reachUs{
         padding: 5rem 0rem 0rem 5rem;
     }
@@ -660,6 +664,51 @@
         justify-content: space-between;
         width: 90vw;
     }
+    #navigationItems{
+        display: none;
+    }
+    /* D R O P D O W N */
+    .dropbtn {
+        background-color: #004621;
+        color: #fcb040;
+        padding: 1rem;
+        font-size: 1em;
+        border: none;
+        cursor: pointer;
+        width: 100vw;
+        margin: 1rem 0rem 0rem 0rem;
+      }
+      .dropdown {
+        font-family: "Raleway";
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fcb040;
+        color: #ffffff;
+        width: 50vw;
+        text-align: center;
+        opacity:0.95;
+        font-weight: bolder;
+        font-size: 1em;
+        z-index: 1;
+      }
+      .dropdown-content a {
+        color: #004621;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+            background-color: #247149;
+            color: #fcb040;
+        }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
     /* E N T R E P R E N E U R S */
     #entrepreneurs-navDots {
         display: none;
@@ -710,6 +759,9 @@
     #teamMembers,    .welcomeContent {
         text-align: center;
      }
+     #teamMembers{
+        margin: 0rem 0rem 0rem -2rem;
+     }
     .welcomeContent {
         flex-direction: column;
     }
@@ -728,9 +780,9 @@
         width: 40vw;
     }
     .exp-on-img-txt {
-        font-size: x-small;
-        top: 2.25rem;
-        left: 1.2rem;
+        font-size: 0.5em;
+        top: 2rem;
+        left: 1.9rem;
     }
     .welcomeText {
         padding: 1rem 0rem 0rem 0rem;
@@ -744,9 +796,9 @@
         display: none;
     }
     .productcard {
-        width: 36vw;
-        height: 50vh;
-        padding: 0rem 0.1rem 0rem 0.1rem;
+        width: 41vw;
+        height: 37.5vh;
+        padding: 1rem 0.2rem 0rem 0.1rem
     }
     .product-cardTxt {
         margin: 1rem 0rem 0rem 0rem;
@@ -765,6 +817,11 @@
         width: 7vw;
         margin: 0.25rem 0.5rem 0.5rem 0rem;
         }   
+
+    #products_centered {
+            width: 90vw;
+            font-size: 1.25em;
+    }
     .briefcase-bg {
         width: 15vw;
         height: 5vh;
@@ -783,17 +840,18 @@
     }
     #product-navDots {
         display: block;
+        font-size: xx-large;
         width: 75vw;
         text-align: center;
-        margin: -5rem 0rem 0rem 0rem;
+        margin: -5rem 0rem 0rem 1.75rem;
     }
     #product-navDots span {
         color: #fcb040;
         font-size: 2.5em;
     }    
-    #product-navDots span:nth-of-type(2) {
+    /* #product-navDots span:nth-of-type(2) {
         color: white;
-    }
+    } */
     /* A D V A N C E D  T E C H */
     #advancedTech {
         flex-direction: column-reverse;
@@ -803,7 +861,7 @@
     }
     #advanceTxt {
         margin: 0rem 0rem 0rem 0rem;
-        height: 60vh;
+        height: 50vh;
         width: 100vw;
     }
     #advanceTxt h2 {
@@ -814,7 +872,7 @@
         margin:2rem 0rem 2rem 1rem;
     }
     #advanceImg img {
-        height: 31vh;
+        height: 33vh;
         width: 100vw;
     }
     .briefcaseList {
@@ -853,6 +911,9 @@
         margin: -7rem 0rem 0rem -1.5rem;
     }
     /* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
+    #investorRelation{
+        width: 100vw !important;
+    }
     #relationsTxt{
     margin: 0rem 1rem 0rem 1rem;
     }
@@ -863,6 +924,9 @@
     #menuCards{
         flex-direction: column;
     }
+    /* #cardLeft,#cardRight{
+        flex-direction: column;
+    } */
 
     /* C U S T O M E R   I N V E S T O R    T E S T I M O N I A L S */
     #customer_investor{
@@ -906,7 +970,7 @@
         display: none;
     }
     #product-navDots #inactive {
-        color: #004621;
+        color: #fcb040;
     }
     #cropedImg #product-navDots{
         margin: 0rem 0rem 0rem 2.5rem;
@@ -927,17 +991,18 @@
     /* F O O T ER   T O P  */
     #footer-top{
         flex-direction: column;
+        padding: 4rem 0rem 2rem 3rem;
     }
     #logoimg,#footerMenu,#reachUs{
         padding: 1rem 0rem 1rem 0rem;
         text-align: center;
     }
     #logoimg,#footerMenu,#reachUs{
-        width: 99vw;
+        width: 72vw;
     }
     #footerMenu table,#footerMenu th,#footerMenu td,#footerMenu tr{
         width: 70vw;
-        margin: 0rem 0rem 0rem 3rem;
+        margin: 0rem 0rem 0rem 2rem;
     }
     #reachUs p{
         margin: 0.5rem 1rem -1rem 0rem;
