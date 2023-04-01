@@ -797,7 +797,7 @@
     }
     .productcard {
         width: 41vw;
-        height: 30vh;
+        height: 37.5vh;
         padding: 1rem 0.2rem 0rem 0.1rem
     }
     .product-cardTxt {
@@ -861,7 +861,7 @@
     }
     #advanceTxt {
         margin: 0rem 0rem 0rem 0rem;
-        height: 45vh;
+        height: 50vh;
         width: 100vw;
     }
     #advanceTxt h2 {
