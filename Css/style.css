@@ -416,7 +416,7 @@
 #investorRelation{
     background-image: url("../Assets/TYTY.png");
     background-color: #000;
-    width: 90vw !important;
+    width: 98.6vw !important;
 }
 #relationsTxt p{
     color: #ffffff !important;
@@ -902,6 +902,9 @@
         margin: -7rem 0rem 0rem -1.5rem;
     }
     /* C U S T O M E R   I N V E S T O R   R E L A T I O N S */
+    #investorRelation{
+        width: 100vw !important;
+    }
     #relationsTxt{
     margin: 0rem 1rem 0rem 1rem;
     }
