@@ -73,8 +73,8 @@
     justify-content: left;
     align-items: center;
 }
-#navigation-ContactUsBtn>button,#advancedTech button ,.moreBtnGreen{
-    background-color: #004621 !important;
+#navigation-ContactUsBtn>button,#advancedTech button ,#moreBtnGreen{
+    background-color: #004621 ;
 }
 #list-top>ul,#list-bottom>ul {
     list-style: none;
@@ -146,7 +146,7 @@
     border: none;
     transition: 0.2s;
 }
-.moreBtnGreen{
+#moreBtnGreen{
     color: #ffffff;
 }
 
@@ -154,7 +154,18 @@
 .moreBtn:hover{
     transform: scale(1.05);
     cursor: pointer;
-    border-radius:0.25rem ;  
+    border-radius:0.25rem ;
+    background: #004621;  
+    color: #fcb040;
+    box-shadow:0.25rem 0.25rem 0.5rem #fcb040;
+}
+#moreBtnGreen:hover , #SubscribeBtn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-radius:0.25rem ;
+    background: #fcb040;
+    color: #004621;
+    box-shadow:0.5rem 0.5rem 0.5rem #125c35;  
 }
 .contactInfo:hover , #navigationItems li:hover{
     transform: scale(1.1);
@@ -165,21 +176,41 @@
     text-decoration: underline;
     font-weight: bolder;
     }
-#navigationLogo img:hover,
+td:hover{
+    color:#fcb040;
+    transform: scale(1.1);
+    font-weight: bolder;
+    cursor: pointer;
+}
 .contactInfo-icons:hover,
 .members-img:hover,
-.exp-on-img:hover,
 .briefcase-para:hover{
-    rotate: 360deg;
-    transform: scale(1.1);
-    transition: 2s;
+    /* rotate: 360deg; */
+    transform: scale(1.25);
+    transition: 1s;
 }
-.productcard:hover{
+.productcard:hover , .card:hover{
     transform: scale(1.1);
     border-radius:0.25rem ;
     color: #fcb040;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
+.whitePara-lft:hover{
+    transform: scale(1.05);
+    border-radius:0.25rem ;
+    box-shadow: 0.5rem 0.5rem 1rem#125c35;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.whitePara-rt:hover{
+    transform: scale(1.05);
+    border-radius:0.25rem ;
+    box-shadow: 0.5rem 0.5rem 1rem #fcb040;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
 
 /**********************  o  v e r  *****************/
 #entrepreneurs-exploreMore {
@@ -1007,6 +1038,7 @@
         flex-direction: column;
         padding: 1rem 0rem 1rem 0rem;
         width: 100vw;
+        height: 20vh;
         border-radius: 0rem 0rem 0rem 0rem;
     }
     #subscribe input{
@@ -1014,7 +1046,11 @@
         height: 5vh;
         width: 50vw;
     }
-
+    #SubscribeBtn {
+        width: 25vw;
+        height: 5vh;
+        margin: 0rem 0rem 0rem 0rem;
+    }
     /* F O O T ER   T O P  */
     #footer-top{
         flex-direction: column;
