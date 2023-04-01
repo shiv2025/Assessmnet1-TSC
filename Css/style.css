@@ -305,8 +305,12 @@
     color: #fcb040;
 }
 #product_head {
+    font-family: "Teko";
+    font-weight: 100;
+    font-size: 1em;
     text-align: center;
     margin: 2rem 0rem 1rem 0rem;
+    padding: 3rem 0rem 0rem 0rem;
 }
 .briefcase-cards {
     display: flex;
