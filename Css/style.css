@@ -714,7 +714,7 @@
         display: none;
     }
     #entrepreneurs-content {
-        padding: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 0rem 1rem;
         height: 50vh;
     }
     #entrepreneurs-content>h2,    #entrepreneurs-content>h3 {
@@ -759,6 +759,9 @@
     #teamMembers,    .welcomeContent {
         text-align: center;
      }
+     #teamMembers{
+        margin: 0rem 0rem 0rem -2rem;
+     }
     .welcomeContent {
         flex-direction: column;
     }
@@ -777,9 +780,9 @@
         width: 40vw;
     }
     .exp-on-img-txt {
-        font-size: x-small;
-        top: 2.25rem;
-        left: 1.2rem;
+        font-size: 0.5em;
+        top: 2rem;
+        left: 1.9rem;
     }
     .welcomeText {
         padding: 1rem 0rem 0rem 0rem;
@@ -793,9 +796,9 @@
         display: none;
     }
     .productcard {
-        width: 36vw;
-        height: 50vh;
-        padding: 0rem 0.1rem 0rem 0.1rem;
+        width: 41vw;
+        height: 30vh;
+        padding: 1rem 0.2rem 0rem 0.1rem
     }
     .product-cardTxt {
         margin: 1rem 0rem 0rem 0rem;
@@ -814,6 +817,11 @@
         width: 7vw;
         margin: 0.25rem 0.5rem 0.5rem 0rem;
         }   
+
+    #products_centered {
+            width: 90vw;
+            font-size: 1.25em;
+    }
     .briefcase-bg {
         width: 15vw;
         height: 5vh;
@@ -832,17 +840,18 @@
     }
     #product-navDots {
         display: block;
+        font-size: xx-large;
         width: 75vw;
         text-align: center;
-        margin: -5rem 0rem 0rem 0rem;
+        margin: -5rem 0rem 0rem 1.75rem;
     }
     #product-navDots span {
         color: #fcb040;
         font-size: 2.5em;
     }    
-    #product-navDots span:nth-of-type(2) {
+    /* #product-navDots span:nth-of-type(2) {
         color: white;
-    }
+    } */
     /* A D V A N C E D  T E C H */
     #advancedTech {
         flex-direction: column-reverse;
@@ -852,7 +861,7 @@
     }
     #advanceTxt {
         margin: 0rem 0rem 0rem 0rem;
-        height: 60vh;
+        height: 45vh;
         width: 100vw;
     }
     #advanceTxt h2 {
@@ -958,7 +967,7 @@
         display: none;
     }
     #product-navDots #inactive {
-        color: #004621;
+        color: #fcb040;
     }
     #cropedImg #product-navDots{
         margin: 0rem 0rem 0rem 2.5rem;
