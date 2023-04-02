@@ -259,6 +259,9 @@ td:hover{
     font-family: "Teko";
     margin: -5rem 0rem 0rem 0rem;
 }
+#advanceTxt h2 {
+    margin: -5rem 0rem 0rem 5rem;
+}
 .members-img {
     position: relative;
 }
