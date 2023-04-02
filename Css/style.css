@@ -236,7 +236,7 @@ td:hover{
 }
 /* W E L C O M E */
 .welcome {
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
     margin: auto;
     position: relative;
     width: 70vw;
@@ -282,7 +282,7 @@ td:hover{
 #teamMembers,.welcomeContent {
     display: flex;
     justify-content: space-around;
-    padding: 2rem 0rem 3rem 0rem;
+    padding: 0rem 0rem 3rem 0rem;
 }
 .welcomeImg {
     width: 100vw;
