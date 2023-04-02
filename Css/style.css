@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* H E A D E R */
 #header {
     display: flex;
@@ -542,10 +543,12 @@ td:hover{
     #cust_invst_left{
         background: #fcb040;
         width: 50vw;
+        background-image: url(../Assets/Ellipse\ 4.svg);
     }
     #cust_invst_right{
         background: #125c35;
         width: 50vw;
+        background-image: url(../Assets/test.svg);
     }
     #cust_invst_head-lft, #cust_invst_head-rt{
         margin: 0rem 0rem 0rem 10rem;
@@ -685,7 +688,8 @@ td:hover{
     /* * * *  * M E D I A  Q U E R I E S * * * * */
 
     @media only screen and (min-width: 360px) and (max-width: 460px) {
-    /* H E A D E R */
+        
+        /* H E A D E R */
     #header-leftBlank {
         display: none;
     }
