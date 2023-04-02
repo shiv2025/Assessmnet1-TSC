@@ -251,16 +251,21 @@ td:hover{
     width: 6vw;
     top: 3rem;
 }
-.members h2,#advanceTxt h2 {
+.members h2 {
+    font-size: 3.5rem;
+    line-height: 216px;
+    color: #004621;
+    font-weight: 600;
+    font-family: "Teko";
+    margin: -5rem 0rem 0rem 5rem;
+}
+#advanceTxt h2 {
     font-size: 3.5rem;
     line-height: 216px;
     color: #004621;
     font-weight: 600;
     font-family: "Teko";
     margin: -5rem 0rem 0rem 0rem;
-}
-#advanceTxt h2 {
-    margin: -5rem 0rem 0rem 5rem !important;
 }
 .members-img {
     position: relative;
@@ -797,7 +802,7 @@ td:hover{
         height: 9vh;
         width: 17vw;
         top: 1rem;
-        margin: -0.5rem 0rem 2rem 0rem;
+        margin: -0.5rem 0rem 0rem 1.8rem;
         }
     .members h2{
         font-size: 2.5rem;
@@ -823,7 +828,7 @@ td:hover{
     }
     .welcomeImg {
         width: 95vw;
-        margin: 1rem 0rem 0rem 0rem;
+        margin: 2.5rem 0rem 0rem 0rem;
     }
     .welocme_building-img {
         width: 80vw;
