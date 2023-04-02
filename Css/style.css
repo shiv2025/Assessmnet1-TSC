@@ -260,7 +260,7 @@ td:hover{
     margin: -5rem 0rem 0rem 0rem;
 }
 #advanceTxt h2 {
-    margin: -5rem 0rem 0rem 5rem;
+    margin: -5rem 0rem 0rem 5rem !important;
 }
 .members-img {
     position: relative;
