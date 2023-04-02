@@ -539,6 +539,27 @@ td:hover{
         display: flex;
         margin-bottom: 2rem;
         font-family: "Raleway";
+        position: relative;
+    }
+    #white-arr{
+        position: absolute;
+        top: 0rem ;
+        left: 0rem;
+        display: flex;
+        width: 75vw;
+        margin: 13rem 0rem 0rem 9rem;
+        justify-content: space-between;
+    }
+    .white-arr-round{
+        border-radius: 2rem;
+        background: #ffffff;
+        width: 3vw;
+        height: 3.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        margin: 0rem 0rem 0rem 1rem;
     }
     #cust_invst_left{
         background: #fcb040;
@@ -1017,6 +1038,9 @@ td:hover{
     }
 
     /* C U S T O M E R   I N V E S T O R    T E S T I M O N I A L S */
+    #white-arr{
+        display: none;
+    }
     #customer_investor{
         flex-direction: column;
     }
