@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assessment-1</title>
     <link rel="stylesheet" href="./Css/style.css">
+    <script src="./JS/index.js"></script>
 
     <!-- fa fa icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -34,7 +35,7 @@
                     <div class="contactInfo-icons">
                         <i id="fa-loc" class="fa fa-map-marker" aria-hidden="true"></i>
                     </div>
-                    <div class="contactInfo-headings">
+                    <div class="contactInfo-headings" id="Location">
                         <span class="contactInfo-headings-yellow">Our Location</span>
                         <span class="contactInfo-headings-white">Manakkal Ayyampettai Via,</span>
                     </div>
@@ -43,7 +44,7 @@
                     <div class="contactInfo-icons">
                         <i id="fa-mail" class="fa fa-envelope-o" aria-hidden="true"></i>
                     </div>
-                    <div class="contactInfo-headings">
+                    <div class="contactInfo-headings" id="sendMail">
                         <span class="contactInfo-headings-yellow">Mail</span>
                         <span class="contactInfo-headings-white">info@velichamfinance.com</span>
                     </div>
@@ -72,17 +73,17 @@
                 <div id="list-top" class="list-top-bottom">
                     <ul>
                         <li id="home-underlined">HOME</li>
-                        <li>ABOUT US</li>
-                        <li>ADVANCED TECH</li>
-                        <li>PRODUCTS</li>
+                        <li><a href="#aboutUs">ABOUT US</a></li>
+                        <li><a href="#advancedTech">ADVANCED TECH</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
                     </ul>
                 </div>
                 <div id="list-bottom" class="list-top-bottom">
                     <ul>
-                        <li>INVESTOR RELATIONS</li>
-                        <li>CSR</li>
-                        <li>CAREERS</li>
-                        <li>RESOURCES</li>
+                        <li><a href="#investorRelation">INVESTOR RELATIONS</a></li>
+                        <li><a href="#menuCards">CSR</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                        <li><a href="#footer">RESOURCES</a></li>
                     </ul>
                 </div>
                 </ul>
@@ -95,11 +96,11 @@
                 <button class="dropbtn"> MENU </button>
                 <div class="dropdown-content">
                 <a href="#">HOME</a>
-                <a href="#">ABOUT US</a>
-                <a href="#">ADVANCED TECH</a>
-                <a href="#">PRODUCTS</a>
-                <a href="#">INVESTOR RELATIONS</a>
-                <a href="#">CSR</a>
+                <a href="#aboutUs">ABOUT US</a>
+                <a href="#advancedTech">ADVANCED TECH</a>
+                <a href="#products">PRODUCTS</a>
+                <a href="#investorRelations">INVESTOR RELATIONS</a>
+                <a href="#csr">CSR</a>
                 <a href="#">CAREERS</a>
                 <a href="#">RESOURCES</a>
                 </div>
@@ -126,7 +127,7 @@
         </div>
 
         <!-- W E L C O M E -->
-        <div class="welcome">
+        <div class="welcome" id="aboutUs">
             <div id="teamMembers">
                 <div class="teamNumbers">
                     <div class="members">
